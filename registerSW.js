@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/jurnal-kuliah-pwa/sw.js', { scope: '/jurnal-kuliah-pwa/' })})}
